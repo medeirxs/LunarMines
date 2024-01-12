@@ -61,7 +61,8 @@ function play(){
         WalletValueUpdate(WalletValue -= Number(BetValue))
         let BlockPlay = document.getElementById('block').style.display = 'none'
         let play = document.getElementById('play').style.display = 'none'
-        let sacar = document.getElementById('sacar').style.display = 'flex'
+        let sacarinner = document.getElementById('sacar').style.display = 'flex'
+
     }
 }
 
