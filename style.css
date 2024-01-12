@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 375px;
+    height: 812px;
+    background: #161722;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+.default{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.default2{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: .4s;
+    filter: grayscale(1);
+}
+
+.default:hover{
+    filter: brightness(0.6);
+    transition: .4s;
+}
+
+#row{
+    display: flex;
+    gap: 5px;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#betBTN{
+    width: 170px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #D9D9D9;
+    color: #EF233C;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#walletBTN{
+    width: 170px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #EF233C;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#subtractBTN{
+    width: 82.5px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #D9D9D9;
+    color: #EF233C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: none;
+    animation: .4s;
+}
+
+#subtractBTN:hover{
+    filter: brightness(0.6);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#addBTN{
+    width: 82.5px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #D9D9D9;
+    color: #EF233C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: none;
+    animation: .4s;
+}
+
+#addBTN:hover{
+    filter: brightness(0.6);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#play{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #EF233C;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+#play:hover{
+    filter: brightness(0.6);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#block{
+    background-color: #00000000;
+    width: 360px;
+    height: 280px;
+    position: fixed;
+    margin-top: -120px;
+    z-index: 2;
+}
+
+#sacar{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #EF233C;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+#sacar:hover{
+    filter: brightness(0.6);
+    transition: .4s;
+    cursor: pointer;
+}
